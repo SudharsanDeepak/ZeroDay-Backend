@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:8080', // your frontend URL
+  origin: 'https://sece-campus-connect.netlify.app', // your frontend URL
   credentials: true
 }));
 app.use(express.json());
